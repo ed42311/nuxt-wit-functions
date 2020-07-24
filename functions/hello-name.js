@@ -4,6 +4,6 @@ exports.handler = async (event, __context) => {
 
   return {
     statusCode: 200,
-    body: `Hello, ${name}`,
+    body: `Hello there, ${name}`,
   }
 }
